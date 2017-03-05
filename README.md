@@ -34,9 +34,8 @@ when power is restored.
      IR1. Data   -> Arduino PIN11 (AR11.)
      IR2. Ground -> Arduino GROUND
      IR3. +5V    -> Arduino +5V
-     
      LEDwhite.  LED controlled board 9V output ( withe wire) -> Arduino VIN
-     AR10. Repeated IR signal -> LEDX. LED controller board where IR1. used to be connected
+     AR10. Repeated IR signal -> LED1. LED controller board wire where IR1. used to be connected
  ```
 Arduino is powered from +9V supply witch is driving 10W RGB led ( white wire going into LED module.
  +5V powe output from 3. pin is not enough to powe up arduino
