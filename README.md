@@ -1,7 +1,7 @@
 # IRRemoteMemory
 ## General  
   IR Remote Memory is for Banggoods 10W IP65 LED Flood Light With Remote Control.
-  This LED lamp does not have memory over last used light. So every time Light 
+  This LED lamp does not have memory over last used color. So every time Light 
   turns on it will be RED.
     
   This Arduino program is repeating all IR commands to the light and has a save/memory funtionality.
@@ -41,6 +41,6 @@ Arduino is powered from +9V supply witch is driving 10W RGB led ( white wire goi
  +5V powe output from 3. pin is not enough to powe up arduino
 
 # Requirements
-
+ * Arduino and electrical skills
  * Ken Shirriff's *awesome* IRremote library:  https://github.com/shirriff/Arduino-IRremote
  * Arduino UNO ( should work with Arduino Mini, but still untested)
